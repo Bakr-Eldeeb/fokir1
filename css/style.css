@@ -1,0 +1,2119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:#ff305b;
+    --background-grey:#333;
+    --background-lgrey:#f1f1f1;
+    --color:white;
+    --padding:30px;
+    --font-size-name:40px;
+    --font-size-p:20px;
+    --font-size-h3:45px;
+    --font-size-h6:27px;
+    --font-size-hom-p:30px;
+    --font-size-h1:80px;
+    --width-3:33.33%;
+    --width-4:25%;
+}
+/********** nav styling ************/
+    .nav{
+    background-color: var(--background-grey);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    }
+    nav{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav li{
+        padding: 10px;
+        
+    }
+    .nav ul{
+        width: 60%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+       
+    }
+    .nav h2{
+       
+        width: 30%;
+        font-size: var(--font-size-name);
+        font-weight: bolder;
+        color: var(--background-color);
+       
+    }
+    a:hover {
+        color: var(--background-color);
+        
+    }
+    nav li:hover{
+        transform: scale(1.2);
+    }
+    /***************** home styling *********************/
+.home{
+    background-image: url(../images/bakr.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* background-attachment: fixed; */
+    text-align: center;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.632);
+   
+}
+.hom{
+    transform: translateY(300px);
+}
+.hom p{
+    color: var(--color);
+    font-size: var(--font-size-hom-p);
+    opacity: 1;
+}
+.hom h1{
+    font-size: var(--font-size-h1);
+    color: var(--background-color);
+    padding: var(--padding);
+
+}
+.hom h4{
+    position: relative;
+    font-size: var(--font-size-name);
+    color: var(--color);
+    text-align: center;
+}
+.hom h4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    animation: movet 15s infinite alternate;
+}
+@keyframes movet{
+    0% {
+        content: "|";
+    }
+    1% {
+        contect: "P|";
+    }
+    2% {
+        contect: "Pr|";
+    }
+    4% {
+        content: "Pro|";
+    }
+    6% {
+        content: "Prof|";
+    }
+    8% {
+        content: "Profe|";
+    }
+    10% {
+        content: "Profes|";
+    }
+    12% {
+        content: "Profess|";
+    }
+    14% {
+        content: "Professi|";
+    }
+    16% {
+        content: "Professio|";
+    }
+    18%{
+        content: "Profession|";
+    }
+    20% {
+        content: "Professiona|";
+    }
+    22% {
+        content: "Professional|";
+    }
+    24% {
+        content: "Professional |";
+    }
+    26% {
+        content: "Professional W|";
+    }
+    28% {
+        content: "Professional We|";
+    }
+    30% {
+        content: "Professional Web|";
+    }
+    32% {
+        content: "Professional Web |";
+    }
+    34% {
+        content: "Professional Web D|";
+    }
+    36% {
+        content: "Professional Web De|";
+    }
+    38% {
+        content: "Professional Web Des|";
+    }
+    40% {
+        content: "Professional Web Desi|";
+    }
+    42% {
+        content: "Professional Web Desig|";
+    }
+    44% {
+        content: "Professional Web Design|";
+    }
+    46% {
+        content: "Professional Web Designe|";
+    }
+    48% {
+        content: "Professional Web Designer|";
+    }
+    50% {
+        content: "Professional Web Designe|";
+    }
+    52% {
+        content: "Professional Web Design|";
+    }
+    54% {
+        content: "Professional Web Desig|";
+    }
+    56% {
+        content: "Professional Web Desi|";
+    }
+    58% {
+        content: "Professional Web Des|";
+    }
+    60% {
+        content: "Professional Web De|";
+    }
+    61.5% {
+        content: "Professional Web Dev|";
+    }
+    63% {
+        content: "Professional Web Deve|";
+    }
+    64.5% {
+        content: "Professional Web Devel|";
+    }
+    66% {
+        content: "Professional Web Develo|";
+    }
+    67.5%{
+        content: "Professional Web Develop|";
+    }
+    69% {
+        content: "Professional Web Develope|";
+    }
+    70.5% {
+        content: "Professional Web Developer|";
+    }
+    72%{
+        content: "Professional Web Develope|"; 
+    }
+    73.5% {
+        content: "Professional Web Develop|";
+    }
+    75%{
+        content: "Professional Web Develo|";
+    }
+    76% {
+        content: "Professional Web Devel|";
+    }
+    77% {
+        content: "Professional Web Deve|";
+    }
+    78% {
+        content: "Professional Web Dev|";
+    }
+    79% {
+        content: "Professional Web De|";
+    }
+    80% {
+        content: "Professional Web D|";
+    }
+    81% {
+        content: "Professional Web |";
+    }
+    82% {
+        content: "Professional Web|";
+    }
+    83% {
+        content: "Professional We|";
+    }
+    84% 
+    {
+        content: "Professional W|";
+    }
+    85% {
+        content: "Professional |";
+    }
+    86% {
+        content: "Professional|";
+    }
+    87% {
+        content: "Professiona|";
+    }
+    88% {
+        content: "Profession|";
+    }
+    89% {
+        content: "Professio|";
+    }
+    90% {
+        content: "Professi|";
+    }
+    91% {
+        content: "Profess|";
+    }
+    92% {
+        content: "Profes|";
+    }
+    93% {
+        content: "Profe|";
+    }
+    94% {
+        content: "Prof|";
+    }
+    95% {
+        content: "Pro|";
+    }
+    96% {
+        content: "Pr|";
+    }
+    97% {
+        content: "P|";
+    }
+    98% {
+        content: "|";
+    }
+    100% {
+        content: "";
+    }
+}
+/**************** General styling *************/
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/********** picture styling left side***********/
+.left{
+    width: 40%;
+    height: 600px;
+}
+.border{
+    width: 75%;
+    height: 500px;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border-style:solid;
+    z-index: -1;
+}
+.image {
+    transform: translate(30px, -470px);
+    width: 75%;
+    height: 500px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.lay{
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    top: 100%;
+    border-radius: 10px;
+    transition: all 2s;
+    position: absolute;
+    visibility: hidden;
+}
+.lay i{
+    font-size: 40px;
+    padding: 20px;
+    transform: translateY(250%);
+    color: lightgray;
+}
+.lay i:hover{
+    color: var(--background-color);
+}
+.image:hover .lay{
+   top: 0;
+   visibility: visible;
+}
+/********** card styling right side ************/
+.right{
+    width: 60%;
+}
+.right h5{
+    font-size: var(--font-size-name);
+    padding: 20px;
+}
+.right p{
+    font-size: var(--font-size-p);
+    position: relative;
+}
+.line{
+    width: 50%;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+.bold{
+    font-weight: bold;
+    width:fit-content ;  
+}
+.r{
+    width: fit-content;
+}
+button{
+  width: 150px;
+  height: 50px;
+  background-color: var(--background-color);
+  color: var(--color);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.right button:hover{
+    background-color: var(--background-lgrey);
+    color: var(--background-color);
+}
+/*********** our service styling ***************/
+.ourservices{
+    background-color: var(--background-lgrey);
+    width: 100%;
+    padding-bottom: 30px;
+    padding: 50px;
+}
+h3{
+    text-align: center;
+    font-size: var(--font-size-h3);
+    position: relative;
+    margin-bottom: 70px;
+}
+h3::before{
+    content: "";
+    top: 99%;
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: var(--background-color);
+    left: 45%;
+    text-align: center;
+}h3::after{
+    content: "";
+    top: 110%;
+    position: absolute;
+    width: 95px;
+    height: 1.5px;
+    background-color: var(--background-color);
+    left: 47%;
+    text-align: center;
+    
+}
+.our-service-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+.ui{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.app{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.product{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.ux{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.ourservices i{
+    font-size: var(--font-size-name);
+    padding: 10px;
+    padding-bottom: 20px;
+    color: var(--background-color);
+    transition: all 0.5s;
+}
+.ourservices h6{
+    font-size: var(--font-size-h6);
+    padding: 10px;
+}
+.ourservices p{
+    font-size: var(--font-size-p);
+}
+.ourservices div:hover i{
+    transform: scale(1.6);
+}
+.ourservices div:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 30px 38px, rgba(0, 0, 0, 0.22) -20px 25px 12px;
+}
+
+/************** portfolio styling ******************/
+.Portfolio{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.Portfolio img{
+    width: 100%;
+    height: 100%;
+}
+.images-i{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.p-imag{
+    width: var(--width-3);
+    padding: 10px; 
+    overflow: hidden;
+    position: relative;
+}
+.p-layer{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: all 1.5s;
+}
+.p-layer i{
+    color: var(--background-color);
+    transform: translate(380px, 290px);
+    opacity: 0;
+}
+.p-imag:hover .p-layer{
+    opacity: 0.6;
+}
+.p-imag:hover i{
+    opacity: 1;
+}
+/*************** numbers styling ****************/
+.numbers{
+    background-color: var(--background-lgrey);
+    padding: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.numbers div{
+    width: var(--width-4);
+    text-align: center;
+    background-color: var(--background-lgrey);
+}
+.b{
+    font-size: var(--font-size-h6);
+    font-weight: bold;
+    padding: 15px;
+}
+.numbers i{
+    font-size: var(--font-size-h6);
+    color: var(--background-color);
+}
+.numbers p{
+    font-weight: lighter;
+    color: var(--background-grey);
+}
+/***************** Client's feedback ****************/
+.back{
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    background-color: var(--background-color);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: var(--background-lgrey);
+    transform-origin: bottom left;
+    transform: skew(-45deg, 0deg);
+}
+.pic{
+    float: left;
+    width: 30%;
+    transform: skew(45deg, 0deg) translate(-125px ,50px);
+}
+.pic img{
+    border-radius: 50%;
+}
+.alex{
+    transform: skew(45deg, 0deg) translate(-125px ,30px);
+    width: 70%;
+    margin-left: 30%;
+}
+.alex h6{
+    font-size: var(--font-size-h6);
+    margin-bottom: 15px;
+}
+.alex i{
+    float: left;
+    padding-right: 5px;
+}
+.fa-star{
+    color: gold;
+}
+.alex p{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+/************** Our Blog Styling **************/
+.blog{
+    background-color: var(--background-lgrey);
+    padding: 80px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d{
+    width: var(--width-3);
+    position: relative;
+    padding: 10px;
+}
+.blog img, iframe{
+    width: 100%;
+    height: 250px;
+}
+.blog h6{
+    font-size: var(--font-size-h6);
+    padding: 10px;
+}
+.blog p{
+    padding: 10px;
+    color: var(--background-grey);
+}
+.blog a{
+    padding: 10px;
+    font-size: var(--font-size-p);
+}
+.blog a:hover{
+    color: var(--background-color);
+}
+/************ Contact Us Styling ****************/
+.contact{
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+}
+.name{
+    width: 49.7%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.subject{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.msg{
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 15px;
+    margin-top: 30px;
+    background-color: var(--background-color);
+    color: var(--color);
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: var(--background-lgrey);
+    color: var(--background-color);
+}
+.copyright{
+    background-color: var(--background-grey);
+    padding: 30px;
+    color: var(--color);
+    text-align: center;
+}
+.copyright i{
+    font-size: var(--font-size-p);
+    padding: 15px;
+    padding-left: 15px;
+    transition: all 0.5s;
+}
+.copyright p{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 3px;
+}
+.copyright a{
+    color: var(--color);
+}
+.cop{
+    display: flex;
+    justify-content:center;
+    
+}
+.bakr{
+    color: var(--background-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+.copyright i:hover{
+    color: var(--background-color);
+    transform: scale(1.4);
+}
+.clr{
+    clear: both;
+    visibility: hidden;
+}
+/******************* tablet media screen ***********************/
+    @media screen and (min-width:768px) and (max-width:1023px){
+        :root{
+            --background-color:#ff305b;
+            --background-grey:#333;
+            --background-lgrey:#f1f1f1;
+            --color:white;
+            --padding:20px;
+            --font-size-name:30px;
+            --font-size-p:15px;
+            --font-size-h3:33px;
+            --font-size-h6:20px;
+            --font-size-hom-p:22px;
+            --font-size-h1:60px;
+            --width-3:50%;
+            --width-4:50%;
+        }  
+/******************* nav styling *****************/
+.nav{
+    background-color: var(--background-grey);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    }
+    nav{
+        width: 90%;
+        margin: auto;
+        padding: var(--padding);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav li{
+        padding: 10px;
+        
+    }
+    .nav ul{
+        width: 60%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+       
+    }
+    .nav h2{
+       
+        width: 30%;
+        font-size: var(--font-size-name);
+        font-weight: bolder;
+        color: var(--background-color);
+       
+    }
+    a:hover {
+        color: var(--background-color);
+        
+    }
+    nav li:hover{
+        transform: scale(1.2);
+    }
+/***************** home styling *********************/
+.home{
+    background-image: url(../images/bakr.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.632);
+   
+}
+.hom{
+    transform: translateY(300px);
+}
+.hom p{
+    color: var(--color);
+    font-size: var(--font-size-hom-p);
+    opacity: 1;
+}
+.hom h1{
+    font-size: var(--font-size-h1);
+    color: var(--background-color);
+    padding: var(--padding);
+
+}
+.hom h4{
+    position: relative;
+    font-size: var(--font-size-name);
+    color: var(--color);
+    text-align: center;
+}
+.hom h4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    animation: movet 15s infinite alternate;
+}
+@keyframes movet{
+    0% {
+        content: "|";
+    }
+    1% {
+        contect: "P|";
+    }
+    2% {
+        contect: "Pr|";
+    }
+    4% {
+        content: "Pro|";
+    }
+    6% {
+        content: "Prof|";
+    }
+    8% {
+        content: "Profe|";
+    }
+    10% {
+        content: "Profes|";
+    }
+    12% {
+        content: "Profess|";
+    }
+    14% {
+        content: "Professi|";
+    }
+    16% {
+        content: "Professio|";
+    }
+    18%{
+        content: "Profession|";
+    }
+    20% {
+        content: "Professiona|";
+    }
+    22% {
+        content: "Professional|";
+    }
+    24% {
+        content: "Professional |";
+    }
+    26% {
+        content: "Professional W|";
+    }
+    28% {
+        content: "Professional We|";
+    }
+    30% {
+        content: "Professional Web|";
+    }
+    32% {
+        content: "Professional Web |";
+    }
+    34% {
+        content: "Professional Web D|";
+    }
+    36% {
+        content: "Professional Web De|";
+    }
+    38% {
+        content: "Professional Web Des|";
+    }
+    40% {
+        content: "Professional Web Desi|";
+    }
+    42% {
+        content: "Professional Web Desig|";
+    }
+    44% {
+        content: "Professional Web Design|";
+    }
+    46% {
+        content: "Professional Web Designe|";
+    }
+    48% {
+        content: "Professional Web Designer|";
+    }
+    50% {
+        content: "Professional Web Designe|";
+    }
+    52% {
+        content: "Professional Web Design|";
+    }
+    54% {
+        content: "Professional Web Desig|";
+    }
+    56% {
+        content: "Professional Web Desi|";
+    }
+    58% {
+        content: "Professional Web Des|";
+    }
+    60% {
+        content: "Professional Web De|";
+    }
+    61.5% {
+        content: "Professional Web Dev|";
+    }
+    63% {
+        content: "Professional Web Deve|";
+    }
+    64.5% {
+        content: "Professional Web Devel|";
+    }
+    66% {
+        content: "Professional Web Develo|";
+    }
+    67.5%{
+        content: "Professional Web Develop|";
+    }
+    69% {
+        content: "Professional Web Develope|";
+    }
+    70.5% {
+        content: "Professional Web Developer|";
+    }
+    72%{
+        content: "Professional Web Develope|"; 
+    }
+    73.5% {
+        content: "Professional Web Develop|";
+    }
+    75%{
+        content: "Professional Web Develo|";
+    }
+    76% {
+        content: "Professional Web Devel|";
+    }
+    77% {
+        content: "Professional Web Deve|";
+    }
+    78% {
+        content: "Professional Web Dev|";
+    }
+    79% {
+        content: "Professional Web De|";
+    }
+    80% {
+        content: "Professional Web D|";
+    }
+    81% {
+        content: "Professional Web |";
+    }
+    82% {
+        content: "Professional Web|";
+    }
+    83% {
+        content: "Professional We|";
+    }
+    84% 
+    {
+        content: "Professional W|";
+    }
+    85% {
+        content: "Professional |";
+    }
+    86% {
+        content: "Professional|";
+    }
+    87% {
+        content: "Professiona|";
+    }
+    88% {
+        content: "Profession|";
+    }
+    89% {
+        content: "Professio|";
+    }
+    90% {
+        content: "Professi|";
+    }
+    91% {
+        content: "Profess|";
+    }
+    92% {
+        content: "Profes|";
+    }
+    93% {
+        content: "Profe|";
+    }
+    94% {
+        content: "Prof|";
+    }
+    95% {
+        content: "Pro|";
+    }
+    96% {
+        content: "Pr|";
+    }
+    97% {
+        content: "P|";
+    }
+    98% {
+        content: "|";
+    }
+    100% {
+        content: "";
+    }
+}
+/**************** General styling *************/
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/********** picture styling left side***********/
+.left{
+    width: 80%;
+    height: 600px;
+}
+.border{
+    width: 75%;
+    height: 500px;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border-style:solid;
+    z-index: -1;
+}
+.image {
+    transform: translate(30px, -470px);
+    width: 75%;
+    height: 500px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.lay{
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    top: 100%;
+    border-radius: 10px;
+    transition: all 2s;
+    position: absolute;
+    visibility: hidden;
+}
+.lay i{
+    font-size: 40px;
+    padding: 20px;
+    transform: translateY(250%);
+    color: lightgray;
+}
+.lay i:hover{
+    color: var(--background-color);
+}
+.image:hover .lay{
+   top: 0;
+   visibility: visible;
+}
+/********** card styling right side ************/
+.right{
+    width: 80%;
+}
+.right h5{
+    font-size: var(--font-size-name);
+    padding: 20px;
+}
+.right p{
+    font-size: var(--font-size-p);
+    position: relative;
+}
+.line{
+    width: 50%;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+.bold{
+    font-weight: bold;
+    width:fit-content ;  
+}
+.r{
+    width: fit-content;
+}
+button{
+  width: 150px;
+  height: 50px;
+  background-color: var(--background-color);
+  color: var(--color);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+/*********** our service styling ***************/
+.ourservices{
+    background-color: var(--background-lgrey);
+    width: 100%;
+    padding-bottom: 30px;
+    padding: 50px;
+}
+h3{
+    text-align: center;
+    font-size: var(--font-size-h3);
+    position: relative;
+    margin-bottom: 70px;
+}
+h3::before{
+    content: "";
+    top: 99%;
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: var(--background-color);
+    left: 45%;
+    text-align: center;
+}h3::after{
+    content: "";
+    top: 110%;
+    position: absolute;
+    width: 95px;
+    height: 1.5px;
+    background-color: var(--background-color);
+    left: 47%;
+    text-align: center;
+    
+}
+.our-service-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+.ui{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.app{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.product{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.ux{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.ourservices i{
+    font-size: var(--font-size-name);
+    padding: 10px;
+    padding-bottom: 20px;
+    color: var(--background-color);
+    transition: all 0.5s;
+}
+.ourservices h6{
+    font-size: var(--font-size-h6);
+    padding: 10px;
+}
+.ourservices p{
+    font-size: var(--font-size-p);
+}
+.ourservices div:hover i{
+    transform: scale(1.6);
+}
+.ourservices div:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 30px 38px, rgba(0, 0, 0, 0.22) -20px 25px 12px;
+}
+
+/************** portfolio styling ******************/
+.Portfolio{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.Portfolio img{
+    width: 100%;
+    height: 100%;
+}
+.images-i{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.p-imag{
+    width: var(--width-3);
+    padding: 10px; 
+    overflow: hidden;
+    position: relative;
+}
+.p-layer{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: all 1.5s;
+}
+.p-layer i{
+    color: var(--background-color);
+    transform: translate(320px, 245px);
+    opacity: 0;
+}
+.p-imag:hover .p-layer{
+    opacity: 0.6;
+}
+.p-imag:hover i{
+    opacity: 1;
+}
+/*************** numbers styling ****************/
+.numbers{
+    background-color: var(--background-lgrey);
+    padding: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.numbers div{
+    width: var(--width-4);
+    text-align: center;
+    background-color: var(--background-lgrey);
+}
+.b{
+    font-size: var(--font-size-h6);
+    font-weight: bold;
+    padding: 15px;
+}
+.numbers i{
+    font-size: var(--font-size-h6);
+    color: var(--background-color);
+}
+.numbers p{
+    font-weight: lighter;
+    color: var(--background-grey);
+}
+/***************** Client's feedback ****************/
+.back{
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    background-color: var(--background-color);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: var(--background-lgrey);
+    transform-origin: bottom left;
+    transform: skew(-45deg, 0deg);
+}
+.pic{
+    float: left;
+    width: 30%;
+    transform: skew(45deg, 0deg) translate(-125px ,50px);
+}
+.pic img{
+    border-radius: 50%;
+}
+.alex{
+    transform: skew(45deg, 0deg) translate(-125px ,30px);
+    width: 70%;
+    margin-left: 30%;
+}
+.alex h6{
+    font-size: var(--font-size-h6);
+    margin-bottom: 15px;
+}
+.alex i{
+    float: left;
+    padding-right: 5px;
+}
+.fa-star{
+    color: gold;
+}
+.alex p{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+/************** Our Blog Styling **************/
+.blog{
+    background-color: var(--background-lgrey);
+    padding: 80px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d{
+    width: var(--width-3);
+    position: relative;
+    padding: 10px;
+}
+.blog img, iframe{
+    width: 100%;
+    height: 250px;
+}
+.blog h6{
+    font-size: var(--font-size-h6);
+    padding: 10px;
+}
+.blog p{
+    padding: 10px;
+    color: var(--background-grey);
+}
+.blog a{
+    padding: 10px;
+    font-size: var(--font-size-p);
+}
+.blog a:hover{
+    color: var(--background-color);
+}
+/************ Contact Us Styling ****************/
+.contact{
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+}
+.name{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.subject{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.msg{
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 15px;
+    margin-top: 30px;
+    background-color: var(--background-color);
+    color: var(--color);
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: var(--background-lgrey);
+    color: var(--background-color);
+}
+.clr{
+    clear: both;
+    visibility: hidden;
+}
+    }
+/***************** phone media screen ******************/
+    @media screen and (max-width:767px){
+        :root{
+            --background-color:#ff305b;
+            --background-grey:#333;
+            --background-lgrey:#f1f1f1;
+            --color:white;
+            --padding:15px;
+            --font-size-name:22px;
+            --font-size-p:10px;
+            --font-size-h3:25px;
+            --font-size-h6:12px;
+            --font-size-hom-p:15px;
+            --font-size-h1:40px;
+            --width-3:90%;
+            --width-4:90%;
+        }   
+/**************** nav styling ********************/
+.nav{
+    background-color: var(--background-grey);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    }
+    nav{
+        width: 90%;
+        margin: auto;
+        padding: var(--padding);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav li{
+        padding: 10px;
+        
+    }
+    .nav ul{
+        width: 60%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+       
+    }
+    .nav h2{
+       
+        width: 30%;
+        font-size: var(--font-size-name);
+        font-weight: bolder;
+        color: var(--background-color);
+       
+    }
+    a:hover {
+        color: var(--background-color);
+        
+    }
+    nav li:hover{
+        transform: scale(1.2);
+    }
+       /***************** home styling *********************/
+.home{
+    background-image: url(../images/bakr.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* background-attachment: fixed; */
+    text-align: center;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.632);
+   
+}
+.hom{
+    transform: translateY(300px);
+}
+.hom p{
+    color: var(--color);
+    font-size: var(--font-size-hom-p);
+    opacity: 1;
+}
+.hom h1{
+    font-size: var(--font-size-h1);
+    color: var(--background-color);
+    padding: var(--padding);
+
+}
+.hom h4{
+    position: relative;
+    font-size: var(--font-size-name);
+    color: var(--color);
+    text-align: center;
+}
+.hom h4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    animation: movet 15s infinite alternate;
+}
+@keyframes movet{
+    0% {
+        content: "|";
+    }
+    1% {
+        contect: "P|";
+    }
+    2% {
+        contect: "Pr|";
+    }
+    4% {
+        content: "Pro|";
+    }
+    6% {
+        content: "Prof|";
+    }
+    8% {
+        content: "Profe|";
+    }
+    10% {
+        content: "Profes|";
+    }
+    12% {
+        content: "Profess|";
+    }
+    14% {
+        content: "Professi|";
+    }
+    16% {
+        content: "Professio|";
+    }
+    18%{
+        content: "Profession|";
+    }
+    20% {
+        content: "Professiona|";
+    }
+    22% {
+        content: "Professional|";
+    }
+    24% {
+        content: "Professional |";
+    }
+    26% {
+        content: "Professional W|";
+    }
+    28% {
+        content: "Professional We|";
+    }
+    30% {
+        content: "Professional Web|";
+    }
+    32% {
+        content: "Professional Web |";
+    }
+    34% {
+        content: "Professional Web D|";
+    }
+    36% {
+        content: "Professional Web De|";
+    }
+    38% {
+        content: "Professional Web Des|";
+    }
+    40% {
+        content: "Professional Web Desi|";
+    }
+    42% {
+        content: "Professional Web Desig|";
+    }
+    44% {
+        content: "Professional Web Design|";
+    }
+    46% {
+        content: "Professional Web Designe|";
+    }
+    48% {
+        content: "Professional Web Designer|";
+    }
+    50% {
+        content: "Professional Web Designe|";
+    }
+    52% {
+        content: "Professional Web Design|";
+    }
+    54% {
+        content: "Professional Web Desig|";
+    }
+    56% {
+        content: "Professional Web Desi|";
+    }
+    58% {
+        content: "Professional Web Des|";
+    }
+    60% {
+        content: "Professional Web De|";
+    }
+    61.5% {
+        content: "Professional Web Dev|";
+    }
+    63% {
+        content: "Professional Web Deve|";
+    }
+    64.5% {
+        content: "Professional Web Devel|";
+    }
+    66% {
+        content: "Professional Web Develo|";
+    }
+    67.5%{
+        content: "Professional Web Develop|";
+    }
+    69% {
+        content: "Professional Web Develope|";
+    }
+    70.5% {
+        content: "Professional Web Developer|";
+    }
+    72%{
+        content: "Professional Web Develope|"; 
+    }
+    73.5% {
+        content: "Professional Web Develop|";
+    }
+    75%{
+        content: "Professional Web Develo|";
+    }
+    76% {
+        content: "Professional Web Devel|";
+    }
+    77% {
+        content: "Professional Web Deve|";
+    }
+    78% {
+        content: "Professional Web Dev|";
+    }
+    79% {
+        content: "Professional Web De|";
+    }
+    80% {
+        content: "Professional Web D|";
+    }
+    81% {
+        content: "Professional Web |";
+    }
+    82% {
+        content: "Professional Web|";
+    }
+    83% {
+        content: "Professional We|";
+    }
+    84% 
+    {
+        content: "Professional W|";
+    }
+    85% {
+        content: "Professional |";
+    }
+    86% {
+        content: "Professional|";
+    }
+    87% {
+        content: "Professiona|";
+    }
+    88% {
+        content: "Profession|";
+    }
+    89% {
+        content: "Professio|";
+    }
+    90% {
+        content: "Professi|";
+    }
+    91% {
+        content: "Profess|";
+    }
+    92% {
+        content: "Profes|";
+    }
+    93% {
+        content: "Profe|";
+    }
+    94% {
+        content: "Prof|";
+    }
+    95% {
+        content: "Pro|";
+    }
+    96% {
+        content: "Pr|";
+    }
+    97% {
+        content: "P|";
+    }
+    98% {
+        content: "|";
+    }
+    100% {
+        content: "";
+    }
+}
+/**************** General styling *************/
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/********** picture styling left side***********/
+.left{
+    width: 80%;
+    height: 600px;
+}
+.border{
+    width: 75%;
+    height: 500px;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border-style:solid;
+    z-index: -1;
+}
+.image {
+    transform: translate(30px, -470px);
+    width: 75%;
+    height: 500px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.lay{
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    top: 100%;
+    border-radius: 10px;
+    transition: all 2s;
+    position: absolute;
+    visibility: hidden;
+}
+.lay i{
+    font-size: 40px;
+    padding: 20px;
+    transform: translateY(250%);
+    color: lightgray;
+}
+.lay i:hover{
+    color: var(--background-color);
+}
+.image:hover .lay{
+   top: 0;
+   visibility: visible;
+}
+/********** card styling right side ************/
+.right{
+    width: 80%;
+}
+.right h5{
+    font-size: var(--font-size-name);
+    padding: 20px;
+}
+.right p{
+    font-size: var(--font-size-p);
+    position: relative;
+}
+.line{
+    width: 50%;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+.bold{
+    font-weight: bold;
+    width:fit-content ;  
+}
+.r{
+    width: fit-content;
+}
+button{
+  width: 150px;
+  height: 50px;
+  background-color: var(--background-color);
+  color: var(--color);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+/*********** our service styling ***************/
+.ourservices{
+    background-color: var(--background-lgrey);
+    width: 100%;
+    padding-bottom: 30px;
+    padding: 50px;
+}
+h3{
+    text-align: center;
+    font-size: var(--font-size-h3);
+    position: relative;
+    margin-bottom: 70px;
+}
+h3::before{
+    content: "";
+    top: 99%;
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: var(--background-color);
+    left: 45%;
+    text-align: center;
+}h3::after{
+    content: "";
+    top: 110%;
+    position: absolute;
+    width: 95px;
+    height: 1.5px;
+    background-color: var(--background-color);
+    left: 47%;
+    text-align: center;
+    
+}
+.our-service-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+.ui{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.app{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.product{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.ux{
+    width: var(--width-4);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-lgrey);
+    transition: all 1s;
+}
+.ourservices i{
+    font-size: var(--font-size-name);
+    padding: 10px;
+    padding-bottom: 20px;
+    color: var(--background-color);
+    transition: all 0.5s;
+}
+.ourservices h6{
+    font-size: var(--font-size-h6);
+    padding: 10px;
+}
+.ourservices p{
+    font-size: var(--font-size-p);
+}
+.ourservices div:hover i{
+    transform: scale(1.6);
+}
+.ourservices div:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 30px 38px, rgba(0, 0, 0, 0.22) -20px 25px 12px;
+}
+
+/************** portfolio styling ******************/
+.Portfolio{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.Portfolio img{
+    width: 100%;
+    height: 100%;
+}
+.images-i{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.p-imag{
+    width: var(--width-3);
+    padding: 10px; 
+    overflow: hidden;
+    position: relative;
+}
+.p-layer{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: all 1.5s;
+}
+.p-layer i{
+    color: var(--background-color);
+    transform: translate(440px, 320px);
+    opacity: 0;
+}
+.p-imag:hover .p-layer{
+    opacity: 0.6;
+}
+.p-imag:hover i{
+    opacity: 1;
+}
+/*************** numbers styling ****************/
+.numbers{
+    background-color: var(--background-lgrey);
+    padding: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.numbers div{
+    width: var(--width-4);
+    text-align: center;
+    background-color: var(--background-lgrey);
+}
+.b{
+    font-size: var(--font-size-h6);
+    font-weight: bold;
+    padding: 15px;
+}
+.numbers i{
+    font-size: var(--font-size-h6);
+    color: var(--background-color);
+}
+.numbers p{
+    font-weight: lighter;
+    color: var(--background-grey);
+}
+/***************** Client's feedback ****************/
+.back{
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    background-color: var(--background-color);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: var(--background-lgrey);
+    transform-origin: bottom left;
+    transform: skew(-45deg, 0deg);
+}
+.pic{
+    float: left;
+    width: 30%;
+    transform: skew(45deg, 0deg) translate(-125px ,50px);
+}
+.pic img{
+    border-radius: 50%;
+}
+.alex{
+    transform: skew(45deg, 0deg) translate(-125px ,30px);
+    width: 70%;
+    margin-left: 30%;
+}
+.alex h6{
+    font-size: var(--font-size-h6);
+    margin-bottom: 15px;
+}
+.alex i{
+    float: left;
+    padding-right: 5px;
+}
+.fa-star{
+    color: gold;
+}
+.alex p{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+/************** Our Blog Styling **************/
+.blog{
+    background-color: var(--background-lgrey);
+    padding: 80px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d{
+    width: var(--width-3);
+    position: relative;
+    padding: 10px;
+}
+.blog img, iframe{
+    width: 100%;
+    height: 250px;
+}
+.blog h6{
+    font-size: var(--font-size-h6);
+    padding: 10px;
+}
+.blog p{
+    padding: 10px;
+    color: var(--background-grey);
+}
+.blog a{
+    padding: 10px;
+    font-size: var(--font-size-p);
+}
+.blog a:hover{
+    color: var(--background-color);
+}
+/************ Contact Us Styling ****************/
+.contact{
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+}
+.name{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.subject{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.msg{
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 15px;
+    margin-top: 30px;
+    background-color: var(--background-color);
+    color: var(--color);
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: var(--background-lgrey);
+    color: var(--background-color);
+}
+.clr{
+    clear: both;
+    visibility: hidden;
+}
+
+}
